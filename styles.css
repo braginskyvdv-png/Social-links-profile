@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Manrope:wght@200..800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+}
+
+body {
+    background-color: hsl(0, 0%, 8%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+
+    padding: clamp(1rem, 3vw, 1.5rem);
+}
+
+.social-links-container {
+    background-color: hsl(0, 0%, 12%);
+    
+    text-align: center;
+    
+    width: 100%;
+    max-width: 384px;
+
+    margin: 0 auto;
+    border-radius: 12px;
+    padding: 1.75rem 1.50rem;
+}
+
+.avatar {
+    border-radius: 50%;
+    max-width: 100px;
+    width: 30vw;
+    height: auto;
+
+    margin-bottom: 1.25rem;
+}
+
+.name {
+    color: hsl(0, 0%, 100%);
+    margin-bottom: 5px;
+}
+
+.location {
+    color: hsl(75, 94%, 57%);
+    margin-bottom: 20px;
+}
+
+q {
+    color: hsl(0, 0%, 60%);
+}
+
+header {
+    margin-bottom: 20px;
+}
+
+ul {
+  list-style: none;
+  margin: 0 auto;
+  padding: 0;
+  width: 100%;         
+  max-width: 344px;     
+}
+
+li {
+  margin: 1rem 0;
+}
+
+a {
+  display: block;
+  width: auto;
+  margin: 0 10px;
+  padding: 0.75rem;
+  background: hsl(0, 0%, 20%);
+  color: hsl(0, 0%, 90%);
+  text-align: center;
+  text-decoration: none;
+  border-radius: 4px;
+}
+
+a:hover {
+    color: hsl(0, 0%, 95%);
+    background: hsl(0, 0%, 30%);
+}
+
+
+
